@@ -20,12 +20,25 @@ const Container = styled.div`
     }
 
     p{
-        width: 70%;
+        width: 90%;
         font-size: 20px;
         font-family: "Raleway", sans-serif;
         color: #F5F5F5;
         font-weight: 400;
     }
+
+    @media (max-width: 870px){
+        img{
+            width: 100%;
+            height: auto;
+        }
+            p{
+                width: 100%;
+                font-size: 16px;
+            }
+        }
+
+    
 `
 
 function Informacoes(){
